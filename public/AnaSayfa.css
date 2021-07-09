@@ -1,0 +1,58 @@
+.header{
+    margin: 2% 0;
+}
+
+h1{
+    font-family: "mainFont", "Bitstream Vera Serif", serif;
+    text-align: center;
+    margin: 0;
+}
+
+body{
+    background-color:#ffeeee ;
+    margin: 0; 
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255 120 120);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: rgb(50, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: rgb(80, 40, 40);
+    color: white;
+}
+  
+.active {
+    background-color: rgb(255, 181, 96);
+}
+
+#logo{
+    display: inline-block;
+    transform: translateY(25%);
+    width: 7%;
+}
+
+@font-face {
+    font-family: "mainFont";
+    src: url("../public/font1.otf");
+}
