@@ -1,1 +1,23 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>lang</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<script>
+    let lang = navigator.language;
+    console.log(lang);
+    if (lang=="tr-TR"){window.location.replace("./tr/anasayfa.html");}
+    else{window.location.replace("./en/home.html");}
+</script>
+
+<body>
+    <p>
+        redirect
+    </p>
+</body>
+
+</html>
